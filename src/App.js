@@ -22,11 +22,11 @@ function App() {
           <div className="routes">
            
               <Routes>
-                <Route exact path="/cryptoverse/" element={<HomePage />} />
-                <Route path="cryptoverse/exchange" element={<Exchanges/>} />
-                <Route path="cryptoverse/cryptocurriencies" element={<Cryptocurrencies/>} />
-                <Route path="cryptoverse/crypto/:coinId" element={<CryptoDetails/>} />
-                <Route path="cryptoverse/news" element={<News/>} />
+                <Route exact path="sakshiwalode28.github.io/cryptoverse" element={<HomePage />} />
+                <Route path="/exchange" element={<Exchanges/>} />
+                <Route path="/cryptocurriencies" element={<Cryptocurrencies/>} />
+                <Route path="/crypto/:coinId" element={<CryptoDetails/>} />
+                <Route path="/news" element={<News/>} />
               </Routes>
           
           </div>
@@ -41,9 +41,9 @@ function App() {
           All rights reserved
         </Typography.Text>
         <Space>
-          <Link to="/cryptoverse/">Home</Link>
-          <Link to="cryptoverse/exchanges">Exchanges</Link>
-          <Link to="cryptoverse/news">News</Link>
+          <Link to="sakshiwalode28.github.io/cryptoverse">Home</Link>
+          <Link to="/exchanges">Exchanges</Link>
+          <Link to="/news">News</Link>
         </Space>
         </div>
       </div>
