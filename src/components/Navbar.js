@@ -37,14 +37,14 @@ function Navbar() {
       <div className="logo-container">
         <Avatar src={icon} size="large" />
         <Typography.Title level={2} className="logo">
-          <Link to="sakshiwalode28.github.io/cryptoverse">Cryptoverse</Link>
+          <Link to="/cryptoverse">Cryptoverse</Link>
         </Typography.Title>
         <Button className="menu-control-container" onClick={() => setActiveMenu(!activeMenu)}><MenuOutlined /></Button>
       </div>
       {activeMenu && (
       <Menu theme="dark">
         <Menu.Item key="home" icon={<HomeOutlined />}>
-          <Link to="sakshiwalode28.github.io/cryptoverse/">Home</Link>
+          <Link to="/cryptoverse/">Home</Link>
         </Menu.Item>
         <Menu.Item key="cryptocurriencies" icon={<MoneyCollectOutlined />}>
           <Link to="/cryptocurriencies">Cryptocurriencies</Link>

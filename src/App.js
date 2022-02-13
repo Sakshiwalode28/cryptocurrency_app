@@ -22,7 +22,7 @@ function App() {
           <div className="routes">
            
               <Routes>
-                <Route exact path="sakshiwalode28.github.io/cryptoverse" element={<HomePage />} />
+                <Route exact path="/cryptoverse" element={<HomePage />} />
                 <Route path="/exchange" element={<Exchanges/>} />
                 <Route path="/cryptocurriencies" element={<Cryptocurrencies/>} />
                 <Route path="/crypto/:coinId" element={<CryptoDetails/>} />
@@ -41,7 +41,7 @@ function App() {
           All rights reserved
         </Typography.Text>
         <Space>
-          <Link to="sakshiwalode28.github.io/cryptoverse">Home</Link>
+          <Link to="/cryptoverse">Home</Link>
           <Link to="/exchanges">Exchanges</Link>
           <Link to="/news">News</Link>
         </Space>
